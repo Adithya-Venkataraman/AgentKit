@@ -8,11 +8,11 @@
   },
   "author": "Lamatic AI",
   "scripts": {
-    "build": "next build",
+    "build": "node init && next build",
     "deploy": "bash scripts/deploy.sh",
-    "dev": "next dev",
+    "dev": "node init && next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "node init && next start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

@@ -1,10 +1,10 @@
 {
   "name": "community-showcase",
   "version": "1.0.0",
-  "description": "Community Project Showcase — Dark-themed developer portal",
+  "description": "Community Project Showcase \u2014 Dark-themed developer portal",
   "scripts": {
-    "dev": "serve . -p 3000 --no-clipboard",
-    "start": "serve . -p 3000 --no-clipboard"
+    "dev": "node init && serve . -p 3000 --no-clipboard",
+    "start": "node init && serve . -p 3000 --no-clipboard"
   },
   "devDependencies": {
     "serve": "14.2.4"

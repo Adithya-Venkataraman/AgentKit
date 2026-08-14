@@ -12,10 +12,10 @@
     "node": ">=20.9.0"
   },
   "scripts": {
-    "build": "npm run typecheck && next build",
-    "dev": "next dev",
+    "build": "node init && npm run typecheck && next build",
+    "dev": "node init && next dev",
     "lint": "eslint .",
-    "start": "next start",
+    "start": "node init && next start",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
