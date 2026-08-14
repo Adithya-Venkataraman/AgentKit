@@ -4,3 +4,6 @@
 .claude
 REFACTOR_PLAN.md
 scripts
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
